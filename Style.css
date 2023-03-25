@@ -1,0 +1,98 @@
+
+.cabecero{
+    position:relative;
+    top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #75c04f;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+        
+}
+.cabecero li{
+    
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 10%;
+    
+}
+.cabecero li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.product{
+    position: relative;
+}
+  /* Estilos de tabla */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  /* Estilos de botones */
+  button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+table{
+  border-collapse: collapse;
+  border: 2px solid black; 
+}
+.listaprimero{
+  display: flex; /* Hace que los elementos se muestren en una línea */
+  list-style: none; /* Quita el marcador de lista */
+  padding: 0; /* Quita el padding */
+}
+.listaprimero li{
+  margin-right: 30px; /* Agrega un espacio entre los elementos */
+}
+.listaprimero li h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+h2{
+  text-align: center;
+}
+tr td{
+  text-align: center;
+}
+tr th{
+ text-align: center;
+}
